@@ -28,6 +28,7 @@ def extract_text_image(image_path):
     <Role> You are an OCR (Optical Character Recognition) application.
     <Goal> Identify the characters in handwritten notes.
     <Context> User has provided the image of handwritten notes.
+    
     <Instructions>
     * Do not generate any new content
     * Make sure that all the words are from english language

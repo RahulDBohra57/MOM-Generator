@@ -61,6 +61,7 @@ if st.button('Generate'):
         <Instructions>
         * Use bullet points and highlight the important keywords by making them bold wherever possible.
         * Generate the output in docx format
+        * Mention Attendees like: Ron, Harry, Hermione, ...
         '''
         
         response = model.generate_content(prompt)
