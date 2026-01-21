@@ -45,10 +45,10 @@ if st.button('Generate'):
         
         <Context> The user has provided some rough notes as text. Here are the notes: {user_text}
         
-        <Format> The output must follow the below format
+        <Format> The output must follow the below format and order
         * Title: assume title of the meeting.
         * Agenda: assume agenda of the meeting.
-        * Attendees: Name of the attendees (If name of the attendees is not there, keep it NA)
+        * Attendees: Name of the attendees (Strictly mention the attendees seperated with , like: Ron, Hermione, Harry, ... If name of the attendees is not there, keep it NA)
         * Date and Place: date and the place of the meeting (If not provided, keep it Online)
         * Body: the body should follow the below sequence of points
             * Mention Key points discussed.
@@ -61,7 +61,6 @@ if st.button('Generate'):
         <Instructions>
         * Use bullet points and highlight the important keywords by making them bold wherever possible.
         * Generate the output in docx format
-        * Mention Attendees like: Ron, Harry, Hermione, ...
         '''
         
         response = model.generate_content(prompt)
