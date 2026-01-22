@@ -87,7 +87,7 @@ An end-to-end AI-powered MoM automation platform built using:
 |------|-----------|
 | **Frontend** | Streamlit |
 | **Backend** | Python |
-| **Vision AI** | Google Gemini 1.5 Flash |
+| **Vision AI** | Google Gemini 2.5 Flash Lite |
 | **LLM** | Gemini Text Completion |
 | **Document Generation** | python-docx, xhtml2pdf |
 | **Deployment** | Streamlit Cloud |
